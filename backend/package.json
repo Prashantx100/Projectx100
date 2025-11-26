@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "adrenaline ads backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "prashant",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  }
+}
